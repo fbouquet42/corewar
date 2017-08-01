@@ -15,7 +15,7 @@
 
 void		vm_usage(void)
 {
-	ft_putstr_fd("usage: ./corewar [-d N] [[-n number] champion1.cor] ...\n",
+	ft_putstr_fd("usage: ./corewar [-d -v] [[-n number] champion1.cor] ...\n",
 																			2);
 	exit(1);
 }
